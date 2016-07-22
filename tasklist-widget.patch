@@ -1,0 +1,11 @@
+--- tasklist-widget-ori.c	2015-02-26 23:32:17.000000000 +0300
++++ tasklist-widget.c	2016-07-21 14:47:02.726563833 +0300
+@@ -2496,7 +2496,7 @@
+   /* create the button label */
+   if (!child->tasklist->only_minimized
+       && wnck_window_is_minimized (child->window))
+-    name = label = g_strdup_printf ("[%s]", name);
++    name = label = g_strdup_printf ("%s", name); //g_strdup_printf ("[%s]", name);
+   else if (wnck_window_is_shaded (child->window))
+     name = label = g_strdup_printf ("=%s=", name);
+ 

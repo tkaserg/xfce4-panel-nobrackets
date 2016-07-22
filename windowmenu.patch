@@ -1,0 +1,13 @@
+--- windowmenu-ori.c	2014-04-25 00:16:37.000000000 +0400
++++ windowmenu.c	2016-07-21 14:30:29.393238821 +0300
+@@ -971,8 +971,8 @@
+   /* create a decorated name for the label */
+   if (wnck_window_is_shaded (window))
+     name = decorated = g_strdup_printf ("=%s=", name);
+-  else if (wnck_window_is_minimized (window))
+-    name = decorated = g_strdup_printf ("[%s]", name);
++  /*else if (wnck_window_is_minimized (window))
++    name = decorated = g_strdup_printf ("[%s]", name);*/
+ 
+   /* create the menu item */
+   mi = gtk_image_menu_item_new_with_label (name);
