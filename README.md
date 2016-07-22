@@ -1,3 +1,3 @@
-# xfce4-panel-nobrakets
-patches to remove brakets from mimized window names in xfce4 panel
+# xfce4-panel-nobrackets
+patches to remove brackets from mimized window names in xfce4 panel
 PKGBUILD for arch linux
