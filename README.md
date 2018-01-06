@@ -1,3 +1,2 @@
 # xfce4-panel-nobrackets
-patches to remove brackets from minimized window names in xfce4 panel
-PKGBUILD for arch linux
+Patches to remove brackets from minimized window names for the xfce4 panel + PKGBUILD for arch linux
